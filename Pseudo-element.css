@@ -1,0 +1,25 @@
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+p::first-line{
+    background-color: blue;
+}
+p::before{
+    content: "💕";
+}
+p::after{
+    content: "😒";
+}
+ul>li::marker{
+    color: peru;
+}
+ul>li::marker{
+    content:"👌";
+}
+p::selection{
+    color: plum;
+}
+input::placeholder{
+    color: hotpink;
+}

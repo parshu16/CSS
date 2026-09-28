@@ -1,0 +1,24 @@
+/* p{
+    color:red;
+}
+#one{
+    color: blue;
+}
+#two{
+    color: blueviolet;
+}
+#three{
+    color: burlywood;
+}
+.heading{
+    color: rebeccapurple;
+}
+.five{
+    background-color: pink;
+}
+p,#two,.five{
+    border: 2px solid black;
+} */
+*{
+    color: darkblue;
+}

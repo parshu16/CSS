@@ -1,0 +1,47 @@
+img:hover{
+    /* border-width*/
+
+    /* border-width: 2px; */
+    /*specific side*/
+    /* border-top-width: 4px;
+    border-left-width: 7px;
+    border-right-width: 6px;
+    border-bottom-width: 5px; */
+    /*border-style*/
+    /* border-style: solid; */
+    /*specific border-style*/
+    /* border-top-style: solid;
+    border-left-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: ridge; */
+    /*border-color*/
+    /* border-color: brown; */
+    /*specific border side color*/
+    /* border-top-color: red;
+    border-left-color: yellow;
+    border-right-color: magenta;
+    border-bottom-color: black; */
+
+    border-width: 2px 3px 4px 5px;
+    border-style: solid dashed dotted groove;
+    border-color: red maroon green black;
+}
+#container{
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+
+    border-radius: 32px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+     border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 35px;
+      border-radius: 6px 10px 20px 28px;
+
+}
+
+
+#container:hover{
+    border-radius: 50%;
+}
