@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    /* TEXT-DECORATION---->Formatting the content inside of an element */
+    text-decoration:aqua underline 3px solid ;
+    
+    /* LINE-SPACE */
+    line-height: 20px;
+
+    /* LETTER-SPACING---->Adds spce between the letters of a word */
+    letter-spacing: 2px;
+
+    /* WORD-SPACING --->Adds space between the words of content*/
+    
+    word-spacing: 50px;
+/* 
+    TEXT-ALIGN */
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: justify;
+
+    /* TEXT-INDENT ---> Adding space before the first line */
+    text-indent: 50px;
+
+    /* TEXT-TRANSFORM ---->Transforming the text/content into upper,
+    lower,capitalize(first letter of a word to UPPER)*/
+
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+
+    /* TEXT-SHADOW --->shadow for the content inside the html element*/
+    text-shadow: 10px 10px  10px green;
+
+    /* TEXT-ALIGN-LAST---> targets only the last line of the text */
+    text-align-last: left;
+    text-align-last: right;
+    text-align-last: center;
+    text-align-last: justify;
+
+}

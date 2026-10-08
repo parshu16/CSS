@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-style: oblique;
+  font-style: normal;
+  font-style: italic;
+
+  /* FONT-SIZE */
+
+  font-size: large;
+  font-size: small;
+  font-size: 10px;
+  font-size: 16px;
+
+  /* FONT-WEIGHT */
+
+  font-weight: 100;
+  font-weight: 200;
+  font-weight: 300;
+  font-weight: 400;
+  font-weight: 500;
+  font-weight: 600;
+
+  /* FONT-FAMILY */
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Times New Roman", Times, serif;
+  font-family: "Bitcount Ink", system-ui;
+  font-family: "Playwrite CA Guides", cursive;
+}
