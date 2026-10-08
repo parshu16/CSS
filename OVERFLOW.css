@@ -8,7 +8,9 @@
     width: 150px;
     border: 2px solid black;
 
-    /* OVERFLOW-PROPERTY */
+    /* OVERFLOW-PROPERTY --->
+    controls the overflow of the content of an html element
+    */
     overflow: visible;overflow: hidden;
     overflow: scroll;
     overflow: auto;
@@ -21,4 +23,9 @@
     overflow: hidden;
     overflow: scroll;
     overflow: auto;
+
+    /* with respect to x-axis and y-axis overflow */
+
+    overflow-x: scroll;
+    overflow-y: scroll;
 }
