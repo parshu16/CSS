@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#static{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: red;
+    position: static;
+    top: 30px;
+    left: 40px;
+}
+#relative{
+    height: 300px;
+    width: 300px;
+    border: 2px solid blue;
+    background-color: green;
+    position: relative;
+
+    /* opposite helper propertis has the highest priority such as (top and left) */
+
+    /* top: 20px;
+    right: 30px;
+    bottom: 50px;
+    left: 60px; */
+
+    top: -20px;
+
+}
+#parent{
+
+    height: 400px;
+    width: 400px;
+    border: 2px solid;
+    position: relative;
+    /* top: 50px; */
+    left: 50px;
+}
+div{
+    
+    height: 130px;
+    width: 130px;
+    border: 2px solid;
+}
+#one{
+    background-color: red;
+   position: absolute;
+   left: 40px;
+}
+#two{
+    background-color: blue;
+    
+}
+#three{
+    background-color: green;
+}
+#java{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: red;
+     position: fixed;
+}
+p{
+  font-size: 7rem;
+}
+section{
+    height: 500px;
+   
+    border: 2px solid red;
+}
+#dabba{
+    background-color: green;
+}
+#mounika{
+    height:700px;
+    background-color: blue;
+}
+nav{
+    height: 100px;
+    position: sticky;
+    top: 100px;
+    background-color: chocolate;
+}
