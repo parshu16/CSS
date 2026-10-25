@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    height: 300px;
+    width: 600px;
+    border: 5px solid black;
+    border-radius: 25px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   display: flex;
+   overflow: hidden;
+}
+#container>img{
+    min-height: 100%;
+    min-width: 100%;
+    animation: prabhas 5s 100ms ease alternate infinite;
+}
+@keyframes prabhas{
+    0%{
+        transform: translateX(0%);
+    }
+    12.5%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    37.5%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    62.5%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
